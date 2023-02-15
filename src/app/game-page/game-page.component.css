@@ -1,0 +1,87 @@
+.wrapper{
+    width: 32%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 48px;
+    background-color:var(--button-color);
+}
+
+.wrapper input{
+    width: 40%;
+    padding: 2px;
+    text-align: center;
+    color: var(--background-color);
+    font-size: x-large;
+    font-weight: 600;
+    background-color: var(--font-color);
+    border:transparent;
+    border-radius: 4px;
+}
+
+.inputBtn{
+    margin:32px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.attempts{
+    width: 56%;
+    text-align: left;
+    margin:0 auto;
+}
+
+.btn{
+    font-size: medium;
+    border: transparent;
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#submit{
+    background-color: var(--number-color);
+    margin-left: 4px;
+    width: 16%;
+}
+
+#new{
+    background-color: var(--background-color);
+    width: 50%;
+    margin-top: 32px;
+    border: 1px solid var(--font-color);
+}
+
+.btn:hover{
+    background-color: var(--font-color) !important;
+    color:var(--number-color) !important;
+}
+
+#levelRange{
+    font-size: small;
+    color: var(--second-font-color);
+}
+
+#comment{
+    font-size:medium;
+    font-weight: 600;
+    color: var(--number-color);
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        width: 90%;
+    }
+    .wrapper input{
+        width: 72%;
+    }
+    #submit{
+        width: 24%;
+    }
+    .attempts{
+        width: 90%;
+    }
+}

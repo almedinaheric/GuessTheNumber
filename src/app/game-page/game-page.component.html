@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <h1>Take a guess 🕹</h1>
+    <p id="levelRange">Guess the number between {{whichLevel()}}</p>
+    <p id="comment"></p>
+    <div class="inputBtn">
+        <input id="numberInput" type="number"> 
+        <button class="btn" id="submit"   (click)="play()">SUBMIT</button>
+    </div>
+    <div class="attempts">
+        <p>Number of attempts left:   {{left}}</p>
+        <p id="numbersTried">Numbers you tried:</p>
+    </div>
+    <button class="btn" id="new" routerLink="">New Game</button>
+</div> 

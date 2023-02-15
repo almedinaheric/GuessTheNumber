@@ -1,0 +1,24 @@
+button{
+    width: 40%;
+    display:block;
+    font-size: medium;
+    border: transparent;
+    padding: 8px 0;
+    cursor: pointer;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    display: absolute;
+    margin: 4px auto;  
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: var(--font-color);
+    color:var(--button-color);
+}
+
+@media screen and (max-width: 768px) {
+    button{
+        width: 80%;
+    }
+}
